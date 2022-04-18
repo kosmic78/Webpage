@@ -1,0 +1,98 @@
+.sectiune{
+    width: 1200px;
+    height: 870px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 400px;
+    margin-top: 100px;
+    transition: .5s;
+  }
+  .sectiune2{
+    width: 1200px;
+    height: 870px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    transition: .5s;
+    left:100%;
+    bottom: 0%;
+  }
+  .row{
+    display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+  }
+  .electribe{
+    width:150px;
+    height:200px; 
+  }
+  .moog{
+    width:150px;
+    height:200px; 
+  }
+  .digitakt{
+    width:150px;
+    height:200px; 
+  }
+  .juno{
+    width:150px;
+    height:200px; 
+  }
+  .tr8{
+    width:150px;
+    height:200px; 
+  }
+  .Behringer{
+    width:150px;
+    height:200px;
+  }
+  .controller{
+    width:1000px;
+    height: 3px;
+    display:block;
+    background: #818181;
+    position:absolute;
+    top:95%;
+    right:100px;
+    transform:translateY(-50%);   
+  }
+  .controller2{
+    width:1000px;
+    height: 3px;
+    display:block;
+    background: #818181;
+    position:absolute;
+    top:96.5%;
+    left:2000px;
+    transition: .5s;
+      
+  }
+  .col-4{
+    flex-basis:25%;
+    padding:10px;
+    min-width:200px;
+    margin-bottom:50px;
+  }
+  .active{
+    width:400px;
+    height: 8px;
+    border-radius:10px;
+    background:rgb(47, 61, 255);
+    position:absolute;
+    top:94.6%;
+    left:30%;
+    transform:translateX(-50%);
+    transition: .5s;
+  }
+  .active2{
+    width:400px;
+    height: 8px;
+    border-radius:10px;
+    background:rgb(47, 61, 255);
+    position:absolute;
+    top:96.3%;
+    left:2750px;
+    transform:translateX(-50%);
+    transition: .5s;
+
+  }
